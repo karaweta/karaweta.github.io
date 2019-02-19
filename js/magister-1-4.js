@@ -357,7 +357,7 @@ function setResultBoxIn(rsltPrcntg){
 		else 
 			pos = 0;
 		$('#result').addClass(awarads[pos].en+"-bg");	
-		var imgURL = "http://cf.hmkcode.com/images/kwt/"+awarads[pos].en+".png";
+		var imgURL = "http://karaweta.github.io/images/kwt/"+awarads[pos].en+".png";
 		
 		if($('#imgAward').attr("src") != imgURL)
 			$('#imgAward').attr("src", imgURL);
