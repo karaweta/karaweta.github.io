@@ -135,7 +135,7 @@ jQuery(document).ready(function($) {
 			showQuestionBox();
 
 	});
-	
+	$("#goldenquiz").hide();
 	$(".tag").click(function(){			
 		
 		$(".tag").removeClass("selected");
