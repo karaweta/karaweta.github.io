@@ -136,6 +136,9 @@ jQuery(document).ready(function($) {
 
 	});
 	$("#goldenquiz").hide();
+	$(".header-subtitle").hide();
+	$(".hashtag").hide();
+	
 	$(".tag").click(function(){			
 		
 		$(".tag").removeClass("selected");
