@@ -26,65 +26,22 @@ randomOrder[8] = [9, 32, 8, 39, 2, 16, 1, 6, 35, 36];
 randomOrder[9] = [15, 26, 8, 19, 29, 27, 1, 35, 37, 21];
 
 var ques = new Array();
-
-
-var w = 0;
 var quesPool = new Array();
-quesPool[w++] = {qs:"أديلو", ans1:"أعط",ans2:"أسمع",ans3:"أعتذر",ans4:"أسمح", cor:1, ua:-1}; 
-quesPool[w++] = {qs:"بزوره", ans1:"ستارة",ans2:"ملاعق",ans3:"ملابس",ans4:"أطفال", cor:4, ua:-1}; 
-quesPool[w++] = {qs:"دوبو", ans1:"ذوبان",ans2:"قبل قليل",ans3:"يقلب",ans4:"أذهبو", cor:2, ua:-1}; 
-quesPool[w++] = {qs:"مجاغة", ans1:"دهاء",ans2:"غباء",ans3:"دلع",ans4:"جوع", cor:3, ua:-1}; 
-quesPool[w++] = {qs:"يتورالي", ans1:"يبدو لي",ans2:"يشرح لي",ans3:"يسمح لي",ans4:"يجلب لي", cor:1, ua:-1}; 
-quesPool[w++] = {qs:"بسكليت", ans1:"قلم",ans2:"سلة",ans3:"بسكويت",ans4:"دراجة", cor:4, ua:-1}; 
-quesPool[w++] = {qs:"صمرقع", ans1:"جنان",ans2:"رعب",ans3:"برد",ans4:"فرح", cor:1, ua:-1}; 
-quesPool[w++] = {qs:"دغري", ans1:"طير",ans2:"مغامر",ans3:"على طول",ans4:"رضيع", cor:3, ua:-1}; 
-quesPool[w++] = {qs:"دكان", ans1:"مرجان",ans2:"متجر",ans3:"مخزن",ans4:"ثلاجة", cor:2, ua:-1}; 
-quesPool[w++] = {qs:"استيتة", ans1:"أخت",ans2:"جدة",ans3:"أبلة",ans4:"عمة", cor:1, ua:-1}; 
-quesPool[w++] = {qs:"بزوره", ans1:"ستارة",ans2:"ملاعق",ans3:"ملابس",ans4:"أطفال", cor:4, ua:-1}; 
-quesPool[w++] = {qs:"دلك", ans1:"نظف",ans2:"سخن",ans3:"ادرس",ans4:"اسمع", cor:1, ua:-1}; 
-quesPool[w++] = {qs:"دحين", ans1:"قصير",ans2:"لماذا",ans3:"الآن",ans4:"قليل", cor:3, ua:-1}; 
-quesPool[w++] = {qs:"بكش", ans1:"كذب",ans2:"ملابس",ans3:"زواج",ans4:"قطة", cor:1, ua:-1}; 
-quesPool[w++] = {qs:"دحديرة", ans1:"صورة",ans2:"شارع",ans3:"فشل",ans4:"منحدر", cor:4, ua:-1}; 
-quesPool[w++] = {qs:"بلكن", ans1:"زهرة",ans2:"منظر",ans3:"ستارة",ans4:"ربما", cor:4, ua:-1}; 
-quesPool[w++] = {qs:"يزهم", ans1:"يركض",ans2:"يطلب",ans3:"ينادي",ans4:"يأكل", cor:3, ua:-1}; 
-quesPool[w++] = {qs:"مصنقر", ans1:"مصمم",ans2:"معصب",ans3:"مسافر",ans4:"مشاكس", cor:2, ua:-1}; 
-quesPool[w++] = {qs:"قروشة", ans1:"إزعاج",ans2:"ترفيه",ans3:"مكيدة",ans4:"أرق", cor:1, ua:-1}; 
-quesPool[w++] = {qs:"قحروطي", ans1:"شجاع",ans2:"ذكي",ans3:"قصير",ans4:"بخيل", cor:4, ua:-1}; 
-quesPool[w++] = {qs:"مخمود", ans1:"كسول",ans2:"نائم",ans3:"موجود",ans4:"صائم", cor:2, ua:-1}; 
-quesPool[w++] = {qs:"مرستك", ans1:"مرتب",ans2:"قبيح",ans3:"ملون",ans4:"صلب", cor:1, ua:-1}; 
-quesPool[w++] = {qs:"أسري", ans1:"اكتب",ans2:"كل",ans3:"أذهب",ans4:"ادفع", cor:3, ua:-1}; 
-quesPool[w++] = {qs:"أندر", ans1:"أخرج",ans2:"تعال",ans3:"أترك",ans4:"نام", cor:1, ua:-1}; 
-quesPool[w++] = {qs:"بزوطه", ans1:"صورة",ans2:"إهمال",ans3:"تحفة",ans4:"زواج", cor:2, ua:-1}; 
-quesPool[w++] = {qs:"جغمة", ans1:"دمعة",ans2:"قبلة",ans3:"رشفة",ans4:"هدية", cor:3, ua:-1}; 
-quesPool[w++] = {qs:"متفشخر", ans1:"مهمل",ans2:"متطلب",ans3:"متعال",ans4:"متأخر", cor:3, ua:-1}; 
-quesPool[w++] = {qs:"مدردم", ans1:"متكور",ans2:"مترجم",ans3:"مهموم",ans4:"داهية", cor:1, ua:-1}; 
-quesPool[w++] = {qs:"بمبي", ans1:"رومنسي",ans2:"زهري",ans3:"متغير",ans4:"مشرق", cor:2, ua:-1}; 
-quesPool[w++] = {qs:"مصرفد", ans1:"مستمتع",ans2:"مخبأ",ans3:"مستعجل",ans4:"لامع", cor:3, ua:-1}; 
-quesPool[w++] = {qs:"لكيع", ans1:"متكاسل",ans2:"صغير",ans3:"بليغ",ans4:"مظلم", cor:1, ua:-1}; 
-quesPool[w++] = {qs:"كرتة", ans1:"فلسفة",ans2:"فستان",ans3:"جديد",ans4:"كرت", cor:2, ua:-1}; 
-quesPool[w++] = {qs:"كندرة", ans1:"جزمة",ans2:"ملعقة",ans3:"علبة",ans4:"سباق", cor:1, ua:-1}; 
-quesPool[w++] = {qs:"كنديشن", ans1:"مكيف",ans2:"مشوش",ans3:"شرط",ans4:"عامل", cor:1, ua:-1}; 
-quesPool[w++] = {qs:"استيتة", ans1:"أخت",ans2:"جدة",ans3:"أبلة",ans4:"عمة", cor:1, ua:-1}; 
-quesPool[w++] = {qs:"دحلسة", ans1:"حساسية",ans2:"تملق",ans3:"ابريق",ans4:"أرضية", cor:2, ua:-1}; 
-quesPool[w++] = {qs:"زنبيل", ans1:"كيس",ans2:"زنجبيل",ans3:"وعاء",ans4:"قدر", cor:1, ua:-1}; 
-quesPool[w++] = {qs:"افتر", ans1:"بعد",ans2:"أهجد",ans3:"دافئ",ans4:"دموع", cor:2, ua:-1}; 
-quesPool[w++] = {qs:"دندرمة", ans1:"مكسرات",ans2:"آيسكريم",ans3:"شاي",ans4:"عصير", cor:2, ua:-1}; 
-quesPool[w++] = {qs:"زكن", ans1:"ذاكر",ans2:"أسرع",ans3:"افتح",ans4:"أكد", cor:4, ua:-1}; 
-quesPool[w++] = {qs:"دبان", ans1:"ذئاب",ans2:"ذباب",ans3:"ثعبان",ans4:"جراد", cor:2, ua:-1};
-quesPool[w++] = {qs:"زرفونة", ans1:"نافذة",ans2:"زفير",ans3:"قفل",ans4:"زرافة", cor:3, ua:-1}; 
-quesPool[w++] = {qs:"دقيسي", ans1:"مخزن",ans2:"ملعب",ans3:"مجلس",ans4:"مستشفى", cor:1, ua:-1}; 
-quesPool[w++] = {qs:"فزلكة", ans1:"زحلقة",ans2:"فلسفة",ans3:"مرهم",ans4:"ورطة", cor:2, ua:-1}; 
-quesPool[w++] = {qs:"شرشحة", ans1:"تفتيش",ans2:"تعليم",ans3:"جراحة",ans4:"تهزيء", cor:4, ua:-1}; 
-quesPool[w] = {qs:"كرويتة", ans1:"كرسي",ans2:"شمعة",ans3:"ورقة",ans4:"موقع", cor:1, ua:-1}; 
+
+
+
+
 // jQuery stuff
 
 var gender = "male";
 var age = 0;
+
 jQuery(document).ready(function($) {
 	
 	// set background to default male-bg
 	setCardBackground();
 	resetGame();
+	
 	// Switch section
 	$("a", '.mainmenu').click(function() 
 	{
@@ -103,31 +60,11 @@ jQuery(document).ready(function($) {
 		return false;
 	});		
 	
-	$("#goldenquiz").click(function(){
-			var r = new Array();
+	 
+
+	$("#flagsquiz").click(function(){
 			
-			var counter = 0;
-			while(r.length < 10){
-				var randomnumber=Math.ceil(Math.random()*(quesPool.length-1))
-				var found=false;
-				for(var i=0;i<r.length;i++){
-					if(r[i]==randomnumber){found=true;break}
-				}
-				if(!found)
-					r[r.length] = randomnumber;
-				counter++;
-				if(counter > 120){
-					if(playCounter >= randomOrder.length)
-						playCounter = 0;
-					r = randomOrder[playCounter++];
-					break;
-				}
-			}
-			for(var i = 0 ; i < 10; i++){
-				ques[i] = quesPool[r[i]];
-			}
-			for(var i = 0 ; i < 10; i++)
-				ques[i].ua = -1;
+			pickQuestions();
 			
 			INDEX = 0;
 			
@@ -135,9 +72,9 @@ jQuery(document).ready(function($) {
 			showQuestionBox();
 
 	});
-	$("#goldenquiz").hide();
-	$(".header-subtitle").hide();
-	$(".hashtag").hide();
+	//$("#goldenquiz").hide();
+	//$(".header-subtitle").hide();
+	//$(".hashtag").hide();
 	
 	$(".tag").click(function(){			
 		
@@ -235,30 +172,7 @@ jQuery(document).ready(function($) {
 	
 	$("#nextGame").click(function(){
 		$('#result-box').fadeOut(section_hide_time, function(){
-			var r = new Array();
-			
-			var counter = 0;
-			while(r.length < 10){
-				var randomnumber=Math.ceil(Math.random()*(quesPool.length-1))
-				var found=false;
-				for(var i=0;i<r.length;i++){
-					if(r[i]==randomnumber){found=true;break}
-				}
-				if(!found)
-					r[r.length] = randomnumber;
-				counter++;
-				if(counter > 120){
-					if(playCounter >= randomOrder.length)
-						playCounter = 0;
-					r = randomOrder[playCounter++];
-					break;
-				}
-			}
-			for(var i = 0 ; i < 10; i++)
-				ques[i] = quesPool[r[i]];
-			
-			for(var i = 0 ; i < 10; i++)
-				ques[i].ua = -1;
+			pickQuestions();
 			
 			INDEX = 0;
 			setResultBoxOut();		
@@ -279,6 +193,47 @@ jQuery(document).ready(function($) {
 		showQuestionBox();
 	});
 });
+
+
+
+function pickQuestions(){
+	var r = new Array();
+	quesPool = flagsBank;
+	var counter = 0;
+
+	while(r.length < 10){
+
+		// get random number 
+		var randomnumber = Math.ceil(Math.random()*(quesPool.length-1))
+		var found = false;
+
+		// go over the array check if random number exits
+		for(var i = 0; i < r.length; i++)
+			if(r[i] == randomnumber){
+				found=true;
+				break
+			}
+			
+		// if not assign to r[]
+		if(!found)
+			r[r.length] = randomnumber;
+
+		counter++;
+
+		// 
+		if(counter > 120){
+			if(playCounter >= randomOrder.length)
+				playCounter = 0;
+			r = randomOrder[playCounter++];
+			break;
+		}
+	}
+	for(var i = 0 ; i < 10; i++){
+		ques[i] = quesPool[r[i]];
+	}
+	for(var i = 0 ; i < 10; i++)
+		ques[i].ua = -1;
+}
 
 function resetGame(){
 	$('#info-box').hide();
@@ -302,10 +257,17 @@ function showQuestionBox(){
 function setQuestonBoxIn(){
 
 	$("#qs").text("\""+ques[INDEX].qs+"\"");
-	$("#ans1").text(ques[INDEX].ans1);
-	$("#ans2").text(ques[INDEX].ans2);
-	$("#ans3").text(ques[INDEX].ans3);
-	$("#ans4").text(ques[INDEX].ans4);
+	$("#ans1 > .tag").attr("src",'flags/'+ques[INDEX].ans1+'.png')
+	$("#ans2 > .tag").attr("src",'flags/'+ques[INDEX].ans2+'.png')
+	$("#ans3 > .tag").attr("src",'flags/'+ques[INDEX].ans3+'.png')
+	$("#ans4 > .tag").attr("src",'flags/'+ques[INDEX].ans4+'.png')
+	// $("#ans2").append($("<img src='flags/"+ques[INDEX].ans2+".png'>").addClass("tag"));
+	// $("#ans3").append($("<img src='flags/"+ques[INDEX].ans3+".png'>").addClass("tag"));
+	// $("#ans4").append($("<img src='flags/"+ques[INDEX].ans4+".png'>").addClass("tag"));
+
+	
+	
+	//$("#ans4").text(ques[INDEX].ans4);
 	$(".tag").removeClass("selected");
 
 	if(ques[INDEX].ua >= 0){
