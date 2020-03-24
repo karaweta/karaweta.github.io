@@ -8,32 +8,32 @@
   font-family: 'Noto Nastaliq Urdu Draft';
   font-style: normal;
   font-weight: 400;
-  src: url(http://fonts.gstatic.com/ea/notonastaliqurdudraft/v3/NotoNastaliqUrduDraft.eot);
-  src: url(http://fonts.gstatic.com/ea/notonastaliqurdudraft/v3/NotoNastaliqUrduDraft.eot?#iefix) format('embedded-opentype'),
-       url(http://fonts.gstatic.com/ea/notonastaliqurdudraft/v3/NotoNastaliqUrduDraft.woff2) format('woff2'),
-       url(http://fonts.gstatic.com/ea/notonastaliqurdudraft/v3/NotoNastaliqUrduDraft.woff) format('woff'),
-       url(http://fonts.gstatic.com/ea/notonastaliqurdudraft/v3/NotoNastaliqUrduDraft.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/ea/notonastaliqurdudraft/v3/NotoNastaliqUrduDraft.eot);
+  src: url(https://fonts.gstatic.com/ea/notonastaliqurdudraft/v3/NotoNastaliqUrduDraft.eot?#iefix) format('embedded-opentype'),
+       url(https://fonts.gstatic.com/ea/notonastaliqurdudraft/v3/NotoNastaliqUrduDraft.woff2) format('woff2'),
+       url(https://fonts.gstatic.com/ea/notonastaliqurdudraft/v3/NotoNastaliqUrduDraft.woff) format('woff'),
+       url(https://fonts.gstatic.com/ea/notonastaliqurdudraft/v3/NotoNastaliqUrduDraft.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Droid Arabic Kufi';
   font-style: normal;
   font-weight: 400;
-  src: url(http://fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.eot);
-  src: url(http://fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.eot?#iefix) format('embedded-opentype'),
-       url(http://fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.woff2) format('woff2'),
-       url(http://fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.woff) format('woff'),
-       url(http://fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.eot);
+  src: url(https://fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.eot?#iefix) format('embedded-opentype'),
+       url(https://fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.woff2) format('woff2'),
+       url(https://fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.woff) format('woff'),
+       url(https://fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Noto Naskh Arabic';
   font-style: normal;
   font-weight: 400;
-  src: url(http://fonts.gstatic.com/ea/notonaskharabic/v3/NotoNaskhArabic-Regular.eot);
-  src: url(http://fonts.gstatic.com/ea/notonaskharabic/v3/NotoNaskhArabic-Regular.eot?#iefix) format('embedded-opentype'),
-       url(http://fonts.gstatic.com/ea/notonaskharabic/v3/NotoNaskhArabic-Regular.woff2) format('woff2'),
-       url(http://fonts.gstatic.com/ea/notonaskharabic/v3/NotoNaskhArabic-Regular.woff) format('woff'),
-       url(http://fonts.gstatic.com/ea/notonaskharabic/v3/NotoNaskhArabic-Regular.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/ea/notonaskharabic/v3/NotoNaskhArabic-Regular.eot);
+  src: url(https://fonts.gstatic.com/ea/notonaskharabic/v3/NotoNaskhArabic-Regular.eot?#iefix) format('embedded-opentype'),
+       url(https://fonts.gstatic.com/ea/notonaskharabic/v3/NotoNaskhArabic-Regular.woff2) format('woff2'),
+       url(https://fonts.gstatic.com/ea/notonaskharabic/v3/NotoNaskhArabic-Regular.woff) format('woff'),
+       url(https://fonts.gstatic.com/ea/notonaskharabic/v3/NotoNaskhArabic-Regular.ttf) format('truetype');
 }
 
 
